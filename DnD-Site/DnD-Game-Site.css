@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#navItem1 {
+    color: #000000;
+}
+
+#navItem2 {
+    color: #000000;
+}
+
+#navItem3 {
+    color: #000000;
+}
+
+#navItem4 {
+    color: #000000;
+}
+
+.dnd-homeCover {
+    height: 80vh;
+    background-size: cover;
+    background-image: url(https://res.cloudinary.com/dbxsbnvja/image/upload/v1712821176/DND/stretched-1920-1200-1346551_jxebvs.png);
+}
+
+.dnd-tag{
+    letter-spacing: +2px;
+    word-spacing: +6px;
+    font-weight: bold;
+    color:#FF1177; 
+    font-family: 'monoton'; 
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.dnd-tag:hover{
+    color: #ffffff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+@font-face {
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+  }
+
+@-moz-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+
+@-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+
+@keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+
+
+
+
+#homePara {
+    text-shadow:  2px 1px #000000;
+    font-family: "Bodoni MT";
+}
+
+#homeHead {
+    font-weight: bold;
+    text-shadow:  2px 1px #000000;
+    font-family: "Bodoni MT";
+}
+.home-space{
+    padding-bottom: 20px;
+    margin-bottom: 200px;
+}
+
+h2 {
+    font-size: 42px;
+    color: #000000;
+    font-family: bree serif;
+}
+
+h3 {
+    font-family: bree serif;
+}
+
+.dndLogo {
+    height: 60px;
+    width: 120px;
+}
+
+.dndExploreCard {
+    border-style: hidden;
+    border-width: 0px;
+    border-color: #ffffff;
+    border-radius: 1px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 100%;
+}
+
+.dndExploreImg {
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.dndCharcaterCard {
+    height: 100%;
+    width: 100%;
+}
+
+.dndCarousel {
+    height: 618px;
+    width: 420px;
+}
+
+.caption-card {
+    padding: 8px;
+    border-style: hidden;
+    border-radius: 19px;
+    background-color: #00000050;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.dndCharacterDescription {
+    font-family: arial;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+.carousel-inner {
+    background-image: linear-gradient(#abbaab75 ,#ffffff);
+    border-style: hidden;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.OSicon {
+    font-size: 28px;
+}
+.Navbg{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+.OSbg {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.bg-gradient{
+    background-image: radial-gradient(#ffffff,#ffffff50,#abbaab);
+}
+        
+.game-card {
+    background-image: linear-gradient(to right, #FFFFFF 0%, #abbaab75   51%,  #FFFFFF 100%);
+    transition: 0.5s;
+    background-size: 200% auto;         
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .game-card:hover {
+    background-position: right center;
+    text-decoration: none;
+  }
+.size-text{
+    font-size: 38px;
+}
+
+.size-head-text{
+    font-size: 52px;
+}
+.foot-logo{
+    height: 175px;
+    width: 475px;
+}
+.icon-linkedin{
+    color: white;
+}
+.icon-linkedin:hover{
+    color: #0077B5;
+}
+.icon-instagram{
+    color: white;
+}
+.icon-instagram:hover{
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-image: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+}
+.icon-youtube{
+    color: #ffffff;
+}
+.icon-youtube:hover{
+    color: #FF0000;
+}
+.icon-twitter{
+    color: #ffffff;
+}
+.icon-twitter:hover{
+    color: #1DA1F2;
+}
+.icon-blogger{
+    color: #ffffff;
+}
+.icon-blogger:hover{
+    color: #FF5722;
+}
+.fotter-about{
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }

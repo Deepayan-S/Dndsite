@@ -22,22 +22,28 @@
     background-image: url(https://res.cloudinary.com/dbxsbnvja/image/upload/v1712821176/DND/stretched-1920-1200-1346551_jxebvs.png);
 }
 
-.dnd-tag{
-    letter-spacing: +2px;
-    word-spacing: +6px;
-    font-weight: bold;
-    color:#FF1177; 
-    font-family: 'monoton'; 
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.dnd-tag:hover{
+
+.dnd-tag {
+    font-size: 48px;
+    word-spacing: +6px;
+    color: #ff5a00;
+    font-family: 'Creepster';
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.dnd-tag:hover {
     color: #ffffff;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-    animation: neon1 1.5s ease-in-out infinite alternate; 
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
 @font-face {
@@ -45,91 +51,95 @@
     font-style: normal;
     font-weight: 400;
     src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
-  }
+}
 
 @-moz-keyframes neon1 {
     from {
-      text-shadow: 0 0 10px #fff,
-                 0 0 20px  #fff,
-                 0 0 30px  #fff,
-                 0 0 40px  #FF1177,
-                 0 0 70px  #FF1177,
-                 0 0 80px  #FF1177,
-                 0 0 100px #FF1177,
-                 0 0 150px #FF1177;
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #ff5a00,
+            0 0 70px #ff5a00,
+            0 0 80px #ff5a00,
+            0 0 100px #ff5a00,
+            0 0 150px #ff5a00;
     }
+
     to {
-      text-shadow: 0 0 5px #fff,
-                 0 0 10px #fff,
-                 0 0 15px #fff,
-                 0 0 20px #FF1177,
-                 0 0 35px #FF1177,
-                 0 0 40px #FF1177,
-                 0 0 50px #FF1177,
-                 0 0 75px #FF1177;
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #ff5a00,
+            0 0 35px #ff5a00,
+            0 0 40px #ff5a00,
+            0 0 50px #ff5a00,
+            0 0 75px #ff5a00;
     }
-  }
+}
 
 @-webkit-keyframes neon1 {
     from {
-      text-shadow: 0 0 10px #fff,
-                 0 0 20px  #fff,
-                 0 0 30px  #fff,
-                 0 0 40px  #FF1177,
-                 0 0 70px  #FF1177,
-                 0 0 80px  #FF1177,
-                 0 0 100px #FF1177,
-                 0 0 150px #FF1177;
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #ff5a00,
+            0 0 70px #ff5a00,
+            0 0 80px #ff5a00,
+            0 0 100px #ff5a00,
+            0 0 150px #ff5a00;
     }
+
     to {
-      text-shadow: 0 0 5px #fff,
-                 0 0 10px #fff,
-                 0 0 15px #fff,
-                 0 0 20px #FF1177,
-                 0 0 35px #FF1177,
-                 0 0 40px #FF1177,
-                 0 0 50px #FF1177,
-                 0 0 75px #FF1177;
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #ff5a00,
+            0 0 35px #ff5a00,
+            0 0 40px #ff5a00,
+            0 0 50px #ff5a00,
+            0 0 75px #ff5a00;
     }
-  }
+}
 
 @keyframes neon1 {
     from {
-      text-shadow: 0 0 10px #fff,
-                 0 0 20px  #fff,
-                 0 0 30px  #fff,
-                 0 0 40px  #FF1177,
-                 0 0 70px  #FF1177,
-                 0 0 80px  #FF1177,
-                 0 0 100px #FF1177,
-                 0 0 150px #FF1177;
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #fff,
+            0 0 40px #ff5a00,
+            0 0 70px #ff5a00,
+            0 0 80px #ff5a00,
+            0 0 100px #ff5a00,
+            0 0 150px #ff5a00;
     }
+
     to {
-      text-shadow: 0 0 5px #fff,
-                 0 0 10px #fff,
-                 0 0 15px #fff,
-                 0 0 20px #FF1177,
-                 0 0 35px #FF1177,
-                 0 0 40px #FF1177,
-                 0 0 50px #FF1177,
-                 0 0 75px #FF1177;
+        text-shadow: 0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #ff5a00,
+            0 0 35px #ff5a00,
+            0 0 40px #ff5a00,
+            0 0 50px #ff5a00,
+            0 0 75px #ff5a00;
     }
-  }
+}
 
 
 
 
 #homePara {
-    text-shadow:  2px 1px #000000;
+    text-shadow: 2px 1px #000000;
     font-family: "Bodoni MT";
 }
 
 #homeHead {
     font-weight: bold;
-    text-shadow:  2px 1px #000000;
+    text-shadow: 2px 1px #000000;
     font-family: "Bodoni MT";
 }
-.home-space{
+
+.home-space {
     padding-bottom: 20px;
     margin-bottom: 200px;
 }
@@ -197,7 +207,7 @@ span {
 }
 
 .carousel-inner {
-    background-image: linear-gradient(#abbaab75 ,#ffffff);
+    background-image: linear-gradient(#abbaab75, #ffffff);
     border-style: hidden;
     border-width: 0px;
     border-radius: 8px;
@@ -206,90 +216,113 @@ span {
 .OSicon {
     font-size: 28px;
 }
-.Navbg{
+
+.Navbg {
     background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
+
 .OSbg {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.bg-gradient{
-    background-image: radial-gradient(#ffffff,#ffffff50,#abbaab);
+
+.bg-gradient {
+    background-image: radial-gradient(#ffffff, #ffffff50, #abbaab);
 }
-        
+
 .game-card {
-    background-image: linear-gradient(to right, #FFFFFF 0%, #abbaab75   51%,  #FFFFFF 100%);
+    background-image: linear-gradient(to right, #FFFFFF 0%, #abbaab75 51%, #FFFFFF 100%);
     transition: 0.5s;
-    background-size: 200% auto;         
+    background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-  }
+}
 
-  .game-card:hover {
+.game-card:hover {
     background-position: right center;
     text-decoration: none;
-  }
-.size-text{
+}
+
+.size-text {
     font-size: 38px;
 }
 
-.size-head-text{
+.size-head-text {
     font-size: 52px;
 }
-.foot-logo{
-    height: 175px;
-    width: 475px;
+
+.foot-logo {
+    height: auto;
+    width: 400px;
 }
-.icon-linkedin{
+
+.icon-linkedin {
     color: white;
 }
-.icon-linkedin:hover{
+
+.icon-linkedin:hover {
     color: #0077B5;
 }
-.icon-instagram{
+
+.icon-instagram {
     color: white;
 }
-.icon-instagram:hover{
+
+.icon-instagram:hover {
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-image: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
 }
-.icon-youtube{
+
+.icon-youtube {
     color: #ffffff;
 }
-.icon-youtube:hover{
+
+.icon-youtube:hover {
     color: #FF0000;
 }
-.icon-twitter{
+
+.icon-twitter {
     color: #ffffff;
 }
-.icon-twitter:hover{
+
+.icon-twitter:hover {
     color: #1DA1F2;
 }
-.icon-blogger{
+
+.icon-blogger {
     color: #ffffff;
 }
-.icon-blogger:hover{
+
+.icon-blogger:hover {
     color: #FF5722;
 }
-.fotter-about{
+
+.fotter-about {
     font-family: 'Times New Roman', Times, serif;
 }
-a:link { 
-    text-decoration: none; 
-  } 
-  a:visited { 
-    text-decoration: none; 
-  } 
-  a:hover { 
-    text-decoration: none; 
-  } 
-  a:active { 
-    text-decoration: none; 
-  }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
